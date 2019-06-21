@@ -57,4 +57,4 @@ client.on("reachLimit", (limit)=> {
   });
 });
  
-client.login('توكن');
+client.login(process.env.BOT_TOKEN);
